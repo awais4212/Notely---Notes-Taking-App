@@ -1,7 +1,7 @@
-// src/component/Home.jsx
 import { useState, useEffect } from 'react'
 import Cards from './Cards'
 import { PiMailboxBold } from "react-icons/pi";
+import '../App.css'
 
 const Home = () => {
   const [notes, setNotes] = useState([])
